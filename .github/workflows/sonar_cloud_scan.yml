@@ -31,6 +31,6 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       - name: Build and analyze
         env:
-          GITHUB_TOKEN: ${{ c139ad976fcd92afdbab53e3739201d150d82a9c }}  # Needed to get PR information, if any
-          SONAR_TOKEN: ${{ c345c5a3e7489f8b7e2ba49c7540777b7f6e98cf }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Linish2020_Benchmark
+          GITHUB_TOKEN: ${{ 4a60f3d262efabb7c402923119e7ae9107010a62 }}  # Needed to get PR information, if any
+          SONAR_TOKEN: ${{ c139ad976fcd92afdbab53e3739201d150d82a9c }}
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Linish2020_hello_90
