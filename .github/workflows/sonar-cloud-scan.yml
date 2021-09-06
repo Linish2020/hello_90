@@ -33,5 +33,5 @@ jobs:
       - name: Analyze with SonarCloud
         uses: sonarsource/sonarcloud-github-action@v1.3
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          GITHUB_TOKEN: ${{ 4a60f3d262efabb7c402923119e7ae9107010a62 }}
+          SONAR_TOKEN: ${{ c139ad976fcd92afdbab53e3739201d150d82a9c }}
