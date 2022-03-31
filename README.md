@@ -31,7 +31,7 @@ Take a look [here](https://github.com/GeyserMC/Geyser/wiki/Setup) for how to set
 - Download: https://ci.geysermc.org
 - Discord: https://discord.gg/geysermc
 - Donate: https://opencollective.com/geysermc
-- Test Server: `test.geysermc.org` port `25565` for Java and `19132` for Bedrock
+- Test Server: `test.geysermc.org` port `25565` for Java and `19132` for Bedrock..
 
 ## What's Left to be Added/Fixed
 - Near-perfect movement (to the point where anticheat on large servers is unlikely to ban you)
